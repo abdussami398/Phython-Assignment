@@ -1,0 +1,101 @@
+class car():
+    
+    def __init__(self,name,model,color):
+        self.name = name
+        self.model = model
+        self.color = color
+        self.price = '2 Million'
+        self.country = 'Japan'
+        
+        
+    def updatecarname(self,newname):
+        self.name = newname
+    
+    
+    def updatecolor(self,newcolor):
+        self.color = newcolor
+    
+    
+    def updatecountry(self,countryname):
+        self.country = countryname
+        
+        
+        
+car_1 = car('toyota',2019,'red')    
+print(car_1.name)
+car_1.updatecarname('Volkswagen')
+print(car_1.name,',updated name')
+print(car_1.model,'Model')
+print(car_1.color)
+car_1.updatecolor('Green')
+print(car_1.color,',Updated color')
+print(car_1.price,'Rupees')
+print(car_1.country)
+car_1.updatecountry('Germany')
+print(car_1.country,',updated country name')
+
+    
+    
+print('============================================================================')    
+car_2 = car('suzuki',2018,'yellow')    
+print(car_2.name)
+car_2.updatecarname('Maruti')
+print(car_2.name,',updated name')
+print(car_2.model,'Model')
+print(car_2.color)
+car_2.updatecolor('red')
+print(car_2.color,',Updated color')
+print(car_2.price,'Rupees')
+print(car_2.country)
+car_2.updatecountry('India')
+print(car_2.country,',updated country name')
+
+
+print('==============================================================================')
+
+car_3 = car('Civic',2016,'grey')    
+print(car_3.name)
+car_3.updatecarname('cultus')
+print(car_3.name,',updated name')
+print(car_3.model,'Model')
+print(car_3.color)
+car_3.updatecolor('yellow')
+print(car_3.color,',Updated color')
+print(car_3.price,'Rupees')
+print(car_3.country)
+car_3.updatecountry('Pakistan')
+print(car_3.country,',,updated country name')
+
+
+print('================================================================================')
+car_4 = car('mehran',2017,'yellow')    
+print(car_4.name)
+car_4.updatecarname('Lamborghini')
+print(car_4.name,',updated name')
+print(car_4.model,'Model')
+print(car_4.color)
+car_4.updatecolor('black')
+print(car_4.color,',Updated color')
+print(car_4.price,'Rupees')
+print(car_4.country)
+car_4.updatecountry('USA')
+print(car_4.country,',updated country name')
+
+
+
+print('===================================================================================')
+car_5 = car('Ferrari',2020,'black')    
+print(car_5.name)
+car_5.updatecarname('Tesla')
+print(car_5.name,',updated name')
+print(car_5.model,'Model')
+print(car_5.color)
+car_5.updatecolor('Golden')
+print(car_5.color,',Updated color')
+print(car_5.price,'Rupees')
+print(car_5.country)
+car_5.updatecountry('USA')
+print(car_5.country,',updated country name')
+
+
+
